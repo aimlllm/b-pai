@@ -35,10 +35,10 @@
     "url": "https://cslb.scalintel.com/",
     "description": "免费加州建筑承包商B牌执照考试准备网站，包含中英双语练习题和系统课程。",
     "inLanguage": ["zh-CN", "en"],
-    "potentialAction": {
-      "@type": "SearchAction",
-      "target": "https://cslb.scalintel.com/#{search_term_string}",
-      "query-input": "required name=search_term_string"
+    "publisher": {
+      "@type": "Organization",
+      "name": "CA B 牌备考 / CSLB Exam Prep",
+      "url": "https://cslb.scalintel.com/"
     }
   }
   </script>
@@ -46,8 +46,8 @@
   {
     "@context": "https://schema.org",
     "@type": "Course",
-    "name": "加州B牌建筑承包商执照考试准备课程",
-    "description": "涵盖加州建筑承包商B牌执照考试的全部8个章节：执照申请、法律商业、建筑规范、施工知识、电气、管道暖通、安全、考试策略。",
+    "name": "California Contractor B License Exam Prep Course (加州B牌考试准备课程)",
+    "description": "A free, comprehensive Chinese-language study course for the California General Building (B) contractor license exam. Covers 8 chapters: license application, law and business, California Building Code, construction knowledge, electrical, plumbing and HVAC, safety (Cal/OSHA), and exam strategies. Includes 65+ bilingual practice questions.",
     "provider": {
       "@type": "Organization",
       "name": "CA B 牌备考",
@@ -56,13 +56,22 @@
     "educationalLevel": "Professional",
     "inLanguage": "zh-CN",
     "isAccessibleForFree": true,
+    "numberOfCredits": 0,
+    "hasCourseInstance": {
+      "@type": "CourseInstance",
+      "courseMode": "online",
+      "courseWorkload": "PT40H"
+    },
     "teaches": [
-      "California Building Code",
-      "Construction Safety (Cal/OSHA)",
-      "Electrical Code (NEC)",
-      "Plumbing Code",
-      "Construction Math",
-      "Contractor Law and Business"
+      "California Building Code (CBC) Title 24",
+      "Construction Safety (Cal/OSHA Title 8)",
+      "California Electrical Code (NEC)",
+      "California Plumbing Code (CPC)",
+      "California Mechanical Code (CMC)",
+      "Construction Math and Estimating",
+      "Contractor Law and Business",
+      "Blueprint Reading",
+      "Concrete, Carpentry, Roofing, Masonry"
     ],
     "about": {
       "@type": "EducationalOccupationalCredential",
@@ -83,37 +92,116 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "加州B牌承包商执照考试有多少题？",
+        "name": "加州B牌承包商执照考试有多少题？How many questions are on the California B license exam?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "B牌行业考试 (Trade Exam) 共115道单选题，考试时间210分钟，需达到72%正确率通过。此外还需通过法律与商业考试 (Law & Business)，约115题，150分钟。"
+          "text": "B牌行业考试 (Trade Exam) 共115道单选题，考试时间210分钟（3.5小时），需达到72%正确率通过。此外还需通过法律与商业考试 (Law & Business)，约115题，150分钟（2.5小时），同样需要72%通过。两项考试均在PSI考试中心以闭卷形式进行。The California B license trade exam has 115 multiple-choice questions in 210 minutes. You also need to pass the Law & Business exam (~115 questions, 150 minutes). Both require a 72% passing score."
         }
       },
       {
         "@type": "Question",
-        "name": "申请加州B牌承包商执照需要什么条件？",
+        "name": "申请加州B牌承包商执照需要什么条件？What are the requirements for a California B contractor license?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "需要在过去10年内拥有至少4年的journeyman级别工作经验，提交申请表（费用$450），完成指纹采集和背景调查，通过法律与商业考试和行业考试，完成石棉开卷考试，并获得承包商保证金（最低$25,000）。"
+          "text": "申请加州B牌执照需要：(1) 过去10年内至少4年journeyman级别工作经验；(2) 提交CSLB申请表，费用$450；(3) Live Scan指纹采集和背景调查（约$49-$59）；(4) 通过法律与商业考试和B牌行业考试；(5) 完成石棉开卷考试；(6) 获得承包商保证金（最低$25,000）和适用保险。总费用约$1,500-$3,000，整个流程约需6-9个月。Requirements: 4 years of journey-level experience in the last 10 years, $450 application fee, fingerprinting, passing both exams, asbestos exam, and a $25,000 contractor bond."
         }
       },
       {
         "@type": "Question",
-        "name": "加州B牌考试考哪些科目？",
+        "name": "加州B牌考试考哪些科目？What subjects are on the California B exam?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "B牌行业考试涵盖5大领域：建筑施工知识约30%（混凝土、木工、屋顶、砌体）、建筑规范约25%（CBC、消防、能源规范）、电气约15%（NEC/CEC）、管道与暖通约15%（CPC、CMC）、安全约15%（Cal/OSHA）。"
+          "text": "B牌行业考试涵盖5大领域：建筑施工知识约30%（混凝土、木工、屋顶、砌体、施工数学）；建筑规范约25%（California Building Code、Fire Code、Energy Code）；电气约15%（基于NEC的California Electrical Code）；管道与暖通约15%（California Plumbing Code、Mechanical Code）；安全约15%（Cal/OSHA Construction Safety Orders, Title 8）。考试参考2025 California Building Standards Code, Title 24。The trade exam covers: Construction Knowledge ~30%, Building Codes ~25%, Electrical ~15%, Plumbing & HVAC ~15%, Safety (Cal/OSHA) ~15%."
         }
       },
       {
         "@type": "Question",
-        "name": "加州B牌执照申请总费用是多少？",
+        "name": "加州B牌执照申请总费用是多少？How much does it cost to get a California B contractor license?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "总费用约$1,500-$3,000，包括：申请费$450、初始执照费$200、指纹/背景调查约$49-$59、承包商保证金保费、以及可选的考试准备课程$300-$800。"
+          "text": "总费用约$1,500-$3,000，包括：申请费$450、初始执照费$200（独资企业）或$350（非独资企业）、指纹/背景调查约$49-$59、承包商保证金保费（$25,000保证金的年保费通常为$100-$500，取决于信用评分）、以及可选的考试准备课程$300-$800。执照每2年更新，续期费$450-$700。Total cost is approximately $1,500-$3,000 including application ($450), license fee ($200-$350), fingerprinting (~$50), bond premium, and optional exam prep courses."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "加州B牌考试难吗？通过率是多少？Is the California B contractor exam hard?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "加州B牌考试有一定难度，但通过充分准备完全可以通过。考试为闭卷形式，不允许携带任何参考资料。需要72%正确率通过（115题中至少答对83题）。建议在模拟测试中稳定达到72%以上再参加正式考试。考试不扣分，应全部作答。备考时间建议2-3个月，重点关注权重最大的施工知识（30%）和建筑规范（25%）。如未通过，需等待至少3周后可重考，无次数限制。The exam is challenging but passable with proper preparation. You need 72% (83/115 correct). It's closed-book. Study 2-3 months, focus on Construction Knowledge (30%) and Building Codes (25%). No limit on retakes, but must wait 3 weeks between attempts."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "加州B类承包商执照可以做什么工程？What can a California B license contractor do?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "B类（General Building）承包商可以承接涉及至少两个不相关建筑工种或技术的结构性建筑项目总包合同。可以独立承接框架或木工项目。B类承包商不得承接仅涉及单一专业工种（如仅电气或仅管道）的总包合同，这些需要对应的C类专业执照。B类执照是加州最常见的承包商执照之一，适用于住宅和商业建筑的新建、改建和翻修项目。A Class B (General Building) contractor can take prime contracts involving two or more unrelated building trades. They can independently do framing/carpentry. They cannot take prime contracts for single-trade specialty work."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "华人如何准备加州承包商执照考试？How can Chinese speakers prepare for the California contractor exam?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "华人备考加州B牌考试建议：(1) 使用中英双语学习资料，同时掌握中文理解和英文术语；(2) 下载CSLB官方学习指南（英文PDF），配合中文翻译资料学习；(3) 按科目权重分配复习时间：施工知识30%、建筑规范25%、电气15%、管道暖通15%、安全15%；(4) 大量做练习题，熟悉考试题型；(5) 重点记忆关键数字（如居住空间最低层高7'6\"、沟槽5英尺需防护、水压最大80 psi等）；(6) 考试为英文，建议熟悉专业英文术语。本网站提供免费中英双语题库和8章系统课程。Chinese speakers should study with bilingual materials, memorize key English terminology, practice with bilingual question banks, and focus study time proportional to exam weights."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "加州承包商考试在哪里考？Where do you take the California contractor exam?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "加州承包商考试在PSI考试中心进行，加州各地设有多个考试点。提交申请并获批后，CSLB会发出考试通知，考生通过PSI网站或电话预约考试时间和地点。考试在电脑上作答，为闭卷形式。如果未通过，需等待至少3周后可重新预约，每次重考需支付额外费用。The exam is taken at PSI testing centers throughout California on a computer. After your CSLB application is approved, you schedule through PSI. Retakes require a 3-week wait."
         }
       }
     ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    "name": "How to Get a California B Contractor License (如何获得加州B牌承包商执照)",
+    "description": "Step-by-step guide to obtaining a California General Building (B) contractor license from CSLB.",
+    "totalTime": "P9M",
+    "estimatedCost": {
+      "@type": "MonetaryAmount",
+      "currency": "USD",
+      "value": "1500-3000"
+    },
+    "step": [
+      {"@type": "HowToStep", "position": 1, "name": "选择执照分类", "text": "选择B类 General Building 执照分类，确定资格认证人 (Qualifier)，可以是 RME 或 RMO。"},
+      {"@type": "HowToStep", "position": 2, "name": "记录工作经验", "text": "提交工作经验证明表，要求过去10年内至少4年journeyman级别经验，由直接主管签署。"},
+      {"@type": "HowToStep", "position": 3, "name": "提交申请", "text": "在CSLB官网在线提交或邮寄纸质申请，申请费$450。"},
+      {"@type": "HowToStep", "position": 4, "name": "指纹与背景调查", "text": "在授权地点完成 Live Scan 指纹采集，费用约$49-$59。"},
+      {"@type": "HowToStep", "position": 5, "name": "等待申请处理", "text": "CSLB在4-6周内确认接受，提供跟踪号码和PIN。"},
+      {"@type": "HowToStep", "position": 6, "name": "通过考试", "text": "通过法律与商业考试（约115题/150分钟）和B牌行业考试（115题/210分钟），均需72%通过。"},
+      {"@type": "HowToStep", "position": 7, "name": "完成石棉考试", "text": "完成石棉 (Asbestos) 开卷考试并提交验证表。"},
+      {"@type": "HowToStep", "position": 8, "name": "获得保证金和执照", "text": "获得承包商保证金（最低$25,000）和适用保险，缴纳初始执照费$200-$350，领取执照。"}
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "California B License Practice Exam (加州B牌模拟考试)",
+    "description": "65+ bilingual (Chinese-English) practice questions covering all California General Building B license exam topics: law & business, construction knowledge, building codes, electrical, plumbing, HVAC, safety, and welding.",
+    "educationalLevel": "Professional",
+    "inLanguage": ["zh-CN", "en"],
+    "isAccessibleForFree": true,
+    "assesses": [
+      "California contractor law and business",
+      "Construction knowledge (concrete, carpentry, roofing, masonry)",
+      "California Building Code (CBC)",
+      "Electrical code (NEC/CEC)",
+      "Plumbing and HVAC",
+      "Cal/OSHA construction safety"
+    ],
+    "about": {
+      "@type": "EducationalOccupationalCredential",
+      "name": "California General Building Contractor B License"
+    }
   }
   </script>
 </head>
@@ -127,6 +215,7 @@
         <li><a href="#topics" class="nav-link" data-section="topics">考试科目</a></li>
         <li><a href="#practice" class="nav-link" data-section="practice">在线练习</a></li>
         <li><a href="#resources" class="nav-link" data-section="resources">学习资源</a></li>
+        <li><a href="#guide" class="nav-link" data-section="guide">备考指南</a></li>
       </ul>
     </div>
   </nav>
@@ -425,6 +514,115 @@
           </ul>
         </div>
       </div>
+    </div>
+  </section>
+
+  <!-- GEO: Static crawlable content for AI search engines -->
+  <section id="guide" class="section">
+    <div class="container">
+      <h2>加州B牌承包商执照完全指南 / Complete Guide to California B Contractor License</h2>
+
+      <article class="guide-article">
+        <h3>什么是加州B牌承包商执照？ What is a California Class B Contractor License?</h3>
+        <p>加州B牌承包商执照（California Class B General Building Contractor License）是由加州承包商执照委员会（CSLB, California Contractors State License Board）颁发的专业执照。B类执照持有者可以承接涉及<strong>至少两个不相关建筑工种</strong>的结构性建筑项目总包合同，包括住宅和商业建筑的新建、改建和翻修。这是加州最常见的承包商执照分类之一。根据加州法律（Business and Professions Code Section 7000 et seq.），任何金额达到$1,000或以上的建筑项目都必须由持照承包商执行。</p>
+      </article>
+
+      <article class="guide-article">
+        <h3>考试关键数据一览 / Exam Key Facts at a Glance</h3>
+        <table class="guide-table">
+          <tr><th>项目 / Item</th><th>行业考试 Trade Exam</th><th>法律与商业 Law & Business</th></tr>
+          <tr><td>题目数量 Questions</td><td>115道选择题</td><td>约115道选择题</td></tr>
+          <tr><td>考试时间 Duration</td><td>210分钟（3.5小时）</td><td>150分钟（2.5小时）</td></tr>
+          <tr><td>通过分数 Passing Score</td><td>72%（至少答对83题）</td><td>72%</td></tr>
+          <tr><td>考试形式 Format</td><td>闭卷，PSI考试中心电脑答题</td><td>闭卷，PSI考试中心电脑答题</td></tr>
+          <tr><td>猜题扣分 Guessing Penalty</td><td>不扣分，建议全部作答</td><td>不扣分，建议全部作答</td></tr>
+        </table>
+      </article>
+
+      <article class="guide-article">
+        <h3>B牌行业考试科目权重 / Trade Exam Subject Weights</h3>
+        <p>根据CSLB官方学习指南，B牌行业考试涵盖以下五大领域。合理分配复习时间是通过考试的关键。</p>
+        <table class="guide-table">
+          <tr><th>科目 Subject</th><th>权重 Weight</th><th>约题数 ~Questions</th><th>参考规范 Reference Codes</th></tr>
+          <tr><td>建筑施工知识 Construction Knowledge</td><td>约30%</td><td>~35题</td><td>混凝土、木工、屋顶、砌体、施工数学</td></tr>
+          <tr><td>建筑规范 Building Codes</td><td>约25%</td><td>~29题</td><td>2025 CBC, CFC, Energy Code, Title 24</td></tr>
+          <tr><td>电气 Electrical</td><td>约15%</td><td>~17题</td><td>2025 California Electrical Code (NEC)</td></tr>
+          <tr><td>管道与暖通 Plumbing & HVAC</td><td>约15%</td><td>~17题</td><td>California Plumbing & Mechanical Code (IAPMO)</td></tr>
+          <tr><td>安全 Safety</td><td>约15%</td><td>~17题</td><td>Cal/OSHA Construction Safety Orders, Title 8</td></tr>
+        </table>
+      </article>
+
+      <article class="guide-article">
+        <h3>申请流程8步骤 / 8-Step Application Process</h3>
+        <p>获得加州B牌承包商执照的完整流程通常需要<strong>6-9个月</strong>，总费用约<strong>$1,500-$3,000</strong>。以下是详细步骤：</p>
+        <ol class="guide-steps">
+          <li><strong>选择执照分类和资格认证人</strong> — 选择B类 General Building 分类，确定资格认证人(Qualifier)，可以是RME（负责管理员工）或RMO（负责管理官员）。</li>
+          <li><strong>记录工作经验</strong> — 提交由雇主签署的工作经验证明表，要求过去10年内至少4年journeyman级别工作经验。</li>
+          <li><strong>提交申请</strong> — 在CSLB官网在线完成或下载纸质申请，申请费$450。</li>
+          <li><strong>指纹与背景调查</strong> — 在授权地点完成Live Scan指纹采集（约$49-$59）。</li>
+          <li><strong>等待处理</strong> — CSLB在4-6周内确认接受，提供跟踪号码和PIN。注意：超过50%的申请因小错误被退回。</li>
+          <li><strong>通过考试</strong> — 通过法律与商业考试和B牌行业考试，均需72%通过。在PSI考试中心进行。未通过需等待至少3周后重考。</li>
+          <li><strong>完成石棉考试</strong> — 完成石棉(Asbestos)开卷考试并提交验证表。</li>
+          <li><strong>获得保证金和执照</strong> — 获得承包商保证金（最低$25,000）和适用保险，缴纳初始执照费（独资企业$200，非独资企业$350）。</li>
+        </ol>
+        <p><strong>信息来源 Source：</strong><a href="https://www.cslb.ca.gov/contractors/applicants/contractors_license/exam_application/" target="_blank" rel="noopener">CSLB Official - Apply for a Contractors License</a></p>
+      </article>
+
+      <article class="guide-article">
+        <h3>必须记住的关键数字 / Key Numbers to Memorize</h3>
+        <table class="guide-table">
+          <tr><th>项目 Item</th><th>数值 Value</th><th>来源 Source</th></tr>
+          <tr><td>居住房间最低层高</td><td>7英尺6英寸 (7'6")</td><td>California Residential Code</td></tr>
+          <tr><td>居住房间最低采光面积</td><td>地板面积的8%</td><td>California Building Code</td></tr>
+          <tr><td>沟槽需要防护系统的深度</td><td>5英尺</td><td>Cal/OSHA</td></tr>
+          <tr><td>坠落防护触发高度（一般施工）</td><td>6英尺</td><td>Cal/OSHA Section 1670</td></tr>
+          <tr><td>住宅最大允许水压</td><td>80 psi</td><td>California Plumbing Code</td></tr>
+          <tr><td>台锯安全操作距离</td><td>4英寸</td><td>Safety Standards</td></tr>
+          <tr><td>梯子放置角度</td><td>75度（4:1比例）</td><td>Cal/OSHA</td></tr>
+          <tr><td>安全会议频率</td><td>每10个工作日</td><td>Cal/OSHA</td></tr>
+          <tr><td>标准混凝土28天抗压强度</td><td>3,000 psi</td><td>ACI Standards</td></tr>
+          <tr><td>THHN导线温度等级</td><td>90°C</td><td>NEC</td></tr>
+          <tr><td>住宅入户线最小净空</td><td>10英尺</td><td>NEC</td></tr>
+          <tr><td>地下设施通知提前时间</td><td>2个工作日</td><td>Cal/OSHA</td></tr>
+          <tr><td>排水管最小坡度（3"及以下）</td><td>1/4英寸/英尺</td><td>California Plumbing Code</td></tr>
+          <tr><td>家庭装修书面合同门槛</td><td>$500</td><td>California Business & Professions Code</td></tr>
+          <tr><td>FLSA工资记录保留（基本记录）</td><td>3年</td><td>Fair Labor Standards Act</td></tr>
+          <tr><td>1"×8"松木实际尺寸</td><td>3/4" × 7-1/4"</td><td>Lumber Standards</td></tr>
+        </table>
+      </article>
+
+      <article class="guide-article">
+        <h3>常用施工数学公式 / Essential Construction Math Formulas</h3>
+        <p>以下是B牌考试中常考的施工数学公式。考试中的部分题目需要进行数学计算。</p>
+        <table class="guide-table">
+          <tr><th>公式 Formula</th><th>用途 Usage</th></tr>
+          <tr><td>宽 × 长 × 高 ÷ 27 = 立方码</td><td>混凝土用量计算（英尺转立方码）</td></tr>
+          <tr><td>a² + b² = c²</td><td>勾股定理：检查直角、计算椽子长度</td></tr>
+          <tr><td>3-4-5 方法</td><td>确保两条线成90度直角</td></tr>
+          <tr><td>坡度 = Rise ÷ Run</td><td>屋顶坡度、排水坡度计算</td></tr>
+          <tr><td>面积 = π × r²</td><td>圆形面积计算</td></tr>
+          <tr><td>Board Feet = 厚(in) × 宽(in) × 长(ft) ÷ 12</td><td>木材板英尺计算</td></tr>
+          <tr><td>总长度 ÷ 间距 + 1</td><td>on-center间距计算数量</td></tr>
+          <tr><td>W ÷ V = A (瓦特÷伏特=安培)</td><td>电气负载计算</td></tr>
+          <tr><td>负载电流 × 125% → 下一标准断路器</td><td>过流保护装置选型</td></tr>
+        </table>
+      </article>
+
+      <article class="guide-article">
+        <h3>官方参考资料 / Official Reference Materials</h3>
+        <p>以下是CSLB官方指定的B牌考试参考资料。考试题目基于这些规范和标准：</p>
+        <ul>
+          <li><strong>2025 California Building Code</strong>, Title 24, Part 2 (International Code Council) — 自2026年1月1日起生效</li>
+          <li><strong>2025 California Electrical Code</strong>, Title 24, Part 3 (基于NEC 2023)</li>
+          <li><strong>2025 California Energy Code</strong>, Title 24, Part 6</li>
+          <li><strong>2025 California Fire Code</strong>, Title 24, Part 9</li>
+          <li><strong>2025 California Plumbing Code</strong>, Title 24, Part 5 (IAPMO)</li>
+          <li><strong>2025 California Mechanical Code</strong>, Title 24, Part 4 (IAPMO)</li>
+          <li><strong>Cal/OSHA Construction Safety Orders</strong>, California Code of Regulations, Title 8</li>
+          <li><strong>California Contractors License Law & Reference Book</strong> (LexisNexis/Matthew Bender) — 法律与商业考试主要参考</li>
+        </ul>
+        <p>官方学习指南可在<a href="https://www.cslb.ca.gov/contractors/applicants/examination_study_guides/" target="_blank" rel="noopener">CSLB官网</a>免费下载。加州建筑规范可在<a href="https://www.dgs.ca.gov/bsc/codes" target="_blank" rel="noopener">California Building Standards Commission</a>网站查阅。</p>
+      </article>
     </div>
   </section>
 
