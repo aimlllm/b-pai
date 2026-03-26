@@ -1,3 +1,14 @@
+// Disable copy, paste, cut, and context menu
+['copy', 'paste', 'cut', 'contextmenu'].forEach(evt => {
+  document.addEventListener(evt, e => e.preventDefault());
+});
+document.addEventListener('selectstart', e => e.preventDefault());
+document.addEventListener('keydown', e => {
+  if ((e.ctrlKey || e.metaKey) && ['c','v','x','a','u','s'].includes(e.key.toLowerCase())) {
+    e.preventDefault();
+  }
+});
+
 document.addEventListener('DOMContentLoaded', () => {
   let currentCategory = 'all';
   let filteredQuestions = [...QUESTIONS];
