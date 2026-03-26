@@ -734,8 +734,8 @@ const QUESTIONS = [
   },
   {
     id: 49,
-    category: "safety",
-    categoryName: "安全",
+    category: "codes",
+    categoryName: "建筑规范",
     question: "对于独立式三户住宅建设项目，应适用国际建筑规范 (IBC) 还是国际住宅规范 (IRC)？",
     questionEn: "Would the IBC or IRC apply to a detached residential 3-family dwelling construction project?",
     options: [
@@ -749,8 +749,8 @@ const QUESTIONS = [
   },
   {
     id: 50,
-    category: "safety",
-    categoryName: "安全",
+    category: "codes",
+    categoryName: "建筑规范",
     question: "根据加州建筑规范，居住房间的最低层高是多少？",
     questionEn: "According to the California Building Code, what is the minimum ceiling height for habitable rooms?",
     options: [

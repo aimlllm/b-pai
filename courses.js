@@ -88,7 +88,7 @@ const COURSES = [
     <div class="step-num">8</div>
     <div class="step-content">
       <h4>获得保证金和保险，领取执照</h4>
-      <p>必须获得承包商保证金（最低$25,000）和适用保险。初始执照费为<strong>$200</strong>。</p>
+      <p>必须获得承包商保证金（最低$25,000）和适用保险。初始执照费：独资企业 <strong>$200</strong>，非独资企业 <strong>$350</strong>。</p>
     </div>
   </div>
 </div>
@@ -98,18 +98,18 @@ const COURSES = [
         title: "1.4 费用一览",
         content: `
 <table>
-  <tr><th>项目</th><th>费用</th></tr>
-  <tr><td>申请费</td><td>$450</td></tr>
-  <tr><td>初始执照费</td><td>$200</td></tr>
-  <tr><td>指纹/背景调查</td><td>~$49–$59</td></tr>
-  <tr><td>承包商保证金（最低$25,000，缴纳保费）</td><td>保费因情况而异</td></tr>
-  <tr><td>考试准备课程（可选）</td><td>$300–$800</td></tr>
-  <tr><td><strong>总投入估计</strong></td><td><strong>$1,500–$3,000</strong></td></tr>
+  <tr><th>项目</th><th>独资企业 (Sole Owner)</th><th>非独资企业</th></tr>
+  <tr><td>申请费</td><td colspan="2">$450</td></tr>
+  <tr><td>初始执照费</td><td>$200</td><td>$350</td></tr>
+  <tr><td>指纹/背景调查</td><td colspan="2">~$49–$59</td></tr>
+  <tr><td>承包商保证金（最低$25,000，缴纳保费）</td><td colspan="2">保费因情况而异</td></tr>
+  <tr><td>考试准备课程（可选）</td><td colspan="2">$300–$800</td></tr>
+  <tr><td><strong>总投入估计</strong></td><td><strong>$1,500–$3,000</strong></td><td><strong>$1,650–$3,150</strong></td></tr>
 </table>
 <h4>时间线</h4>
 <p>典型时间线为<strong>6-9个月</strong>：申请处理1-2个月，准备和通过考试1-3个月，最终发照1-2个月。</p>
 <h4>执照更新</h4>
-<p>执照每<strong>2年</strong>更新一次，续期费$450。必须维持保证金和工伤保险。可在到期前90天内在线续期。逾期续期需缴纳额外费用。</p>
+<p>执照每<strong>2年</strong>更新一次。续期费：独资企业 $450，非独资企业 $700（C-10 电气分类各加$20）。必须维持保证金和工伤保险。可在到期前90天内在线续期。逾期续期需缴纳额外费用（50%附加费）。</p>
 `
       }
     ]
@@ -129,7 +129,7 @@ const COURSES = [
 <p>法律与商业考试是所有承包商执照申请人的<strong>必考科目</strong>。</p>
 <table>
   <tr><th>项目</th><th>详情</th></tr>
-  <tr><td>题目数量</td><td>约 100 道选择题</td></tr>
+  <tr><td>题目数量</td><td>约 115 道选择题</td></tr>
   <tr><td>考试时间</td><td>2.5 小时（150 分钟）</td></tr>
   <tr><td>通过分数</td><td>72%</td></tr>
   <tr><td>考试形式</td><td>闭卷，在 PSI 考试中心电脑作答</td></tr>
@@ -213,11 +213,11 @@ const COURSES = [
 <p>此部分约占考试的 <strong>20%</strong>（约23题），是权重最大的单个领域。</p>
 <h4>关键要点</h4>
 <ul>
-  <li><strong>工资记录保留</strong>：根据 FLSA，雇主必须保留工资计算记录至少<strong>2年</strong></li>
+  <li><strong>工资记录保留</strong>：根据 FLSA，雇主必须保留基本工资记录至少<strong>3年</strong>；辅助记录（如考勤卡、工时表等工资计算依据）至少<strong>2年</strong></li>
   <li><strong>现行工资法 (Prevailing Wage)</strong>：公共项目必须按规定工资标准支付，旨在平衡本地和非本地工人的竞争</li>
   <li><strong>员工分类</strong>：正确区分员工 (Employee) 和独立承包商 (Independent Contractor)</li>
   <li><strong>加班规定</strong>：每天超过8小时或每周超过40小时需支付1.5倍工资</li>
-  <li><strong>工伤保险</strong>：雇用员工的承包商必须购买工伤赔偿保险 (Workers' Compensation)</li>
+  <li><strong>工伤保险</strong>：雇用员工的承包商必须购买工伤赔偿保险 (Workers' Compensation)。没有员工的独资企业主可向 CSLB 提交豁免证书 (Certificate of Exemption)</li>
 </ul>
 `
       },
@@ -259,6 +259,9 @@ const COURSES = [
         title: "3.1 加州建筑标准法典 (Title 24) 概述",
         content: `
 <p>加州建筑标准法典 (California Building Standards Code) 即加州法规 Title 24，是加州法律规定的建筑设计和施工<strong>最低标准</strong>。州法律要求地方政府执行这些法规。</p>
+<div class="note-box">
+  <strong>2025 规范周期更新：</strong>加州建筑标准法典每3年更新一次。<strong>2025 版 Title 24</strong> 已于 2026年1月1日起生效，取代 2022 版。考试内容将基于当前生效的规范版本，请以最新版本为准。
+</div>
 <h4>Title 24 主要部分</h4>
 <table>
   <tr><th>部分</th><th>内容</th><th>缩写</th></tr>
@@ -516,7 +519,7 @@ const COURSES = [
       {
         title: "5.1 NEC 基本概念",
         content: `
-<p>加州电气规范基于 National Electrical Code (NEC)，加上加州特有修订。考试参考 2022 California Electrical Code, Title 24。</p>
+<p>加州电气规范基于 National Electrical Code (NEC)，加上加州特有修订。考试参考 2025 California Electrical Code, Title 24（基于 NEC 2023，自2026年1月1日起生效）。</p>
 <h4>NEC 结构</h4>
 <ul>
   <li><strong>第1-4章</strong>：通用安装要求、布线方法和材料</li>
@@ -867,7 +870,7 @@ const COURSES = [
         content: `
 <table>
   <tr><th>项目</th><th>行业考试 (Trade)</th><th>法律与商业 (Law & Business)</th></tr>
-  <tr><td>题目数量</td><td>115 题</td><td>~100 题</td></tr>
+  <tr><td>题目数量</td><td>115 题</td><td>~115 题</td></tr>
   <tr><td>考试时间</td><td>210 分钟 (3.5小时)</td><td>150 分钟 (2.5小时)</td></tr>
   <tr><td>通过分数</td><td>72%</td><td>72%</td></tr>
   <tr><td>考试形式</td><td>闭卷，电脑答题</td><td>闭卷，电脑答题</td></tr>
