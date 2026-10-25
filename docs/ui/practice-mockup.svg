@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="670" viewBox="0 0 1120 670" role="img" aria-labelledby="title desc">
+<title id="title">练习页设计样本：桌面与手机</title><desc id="desc">顶部为资料批次和考试筛选，中间显示情境计算题，答题后显示解析、出处和核验日期。示例内容不代表真实考试。</desc>
+<rect width="1120" height="670" fill="#F1F5F9"/><g font-family="sans-serif" fill="#0F172A">
+<text x="30" y="36" font-size="22" font-weight="700">更新题库 · 交互设计样本</text><text x="30" y="64" font-size="14">默认新题 → 按考试/领域筛选 → 作答 → 理解推导与误区 → 查阅依据</text>
+<rect x="30" y="90" width="700" height="550" rx="14" fill="white" stroke="#CBD5E1"/>
+<text x="54" y="128" font-size="23" font-weight="700">在线练习</text><text x="54" y="157" font-size="15" fill="#475569">原创练习 · 非官方真题 · 核验 2026-10-25</text>
+<g fill="#EEF2FF" stroke="#A5B4FC"><rect x="54" y="181" width="190" height="46" rx="6"/><rect x="256" y="181" width="190" height="46" rx="6"/><rect x="458" y="181" width="245" height="46" rx="6"/></g>
+<g font-size="15"><text x="66" y="209">本次更新题 ▾</text><text x="270" y="209">B 行业考试 ▾</text><text x="470" y="209">规划与估算 ▾</text><text x="54" y="263">示例：计算题 · 进阶 · 进度 0/9</text></g>
+<text x="54" y="305" font-size="19" font-weight="700">一块混凝土板的尺寸为 24ft × 18ft × 4in。</text><text x="54" y="334" font-size="18">损耗按 10% 计，需订购约多少立方码？</text>
+<g font-size="16"><text x="68" y="377">A　4.80 yd³</text><text x="366" y="377">B　5.87 yd³</text><text x="68" y="419">C　6.40 yd³</text><text x="366" y="419">D　17.60 yd³</text></g>
+<rect x="54" y="452" width="650" height="116" rx="8" fill="#F0FDF4" stroke="#86EFAC"/>
+<text x="70" y="481" font-size="17" font-weight="700">作答后：解析、误区与依据</text><text x="70" y="509" font-size="15">先将 4in 转为 1/3ft，再除以 27，最后乘以 1.10。</text><text x="70" y="540" font-size="14" fill="#4338CA">可点击来源 · 题设计算 · 核验日期</text>
+<text x="54" y="607" font-size="16">上一题　　1 / 9　　　　　　　　　　　下一题</text>
+<rect x="765" y="90" width="325" height="550" rx="20" fill="white" stroke="#94A3B8"/>
+<text x="786" y="126" font-size="21" font-weight="700">在线练习</text><text x="786" y="153" font-size="14">手机：控件纵向排列</text>
+<rect x="786" y="176" width="283" height="46" rx="6" fill="#EEF2FF"/><text x="800" y="205" font-size="16">本次更新题 ▾</text>
+<rect x="786" y="234" width="283" height="46" rx="6" fill="#EEF2FF"/><text x="800" y="263" font-size="16">考试与领域 ▾</text>
+<text x="786" y="319" font-size="17">题干和双语术语自然换行</text>
+<g fill="#F8FAFC" stroke="#CBD5E1"><rect x="786" y="342" width="283" height="48" rx="6"/><rect x="786" y="401" width="283" height="48" rx="6"/><rect x="786" y="460" width="283" height="48" rx="6"/><rect x="786" y="519" width="283" height="48" rx="6"/></g>
+<g font-size="16"><text x="800" y="373">A　可触摸选项</text><text x="800" y="432">B　至少 44px 高</text><text x="800" y="491">C　文本不被裁切</text><text x="800" y="550">D　答后可见反馈</text><text x="786" y="609">上一题　　　1 / 9　　　下一题</text></g></g></svg>
