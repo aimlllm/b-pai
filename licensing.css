@@ -1,5 +1,5 @@
 .license-header { margin-top: 60px; padding: 64px 0 40px; background: var(--gray-50); border-bottom: 1px solid var(--gray-200); }
-.license-header h1 { font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.25; margin: 14px 0 20px; max-width: 850px; }
+.license-header h1 { font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.25; margin: 14px 0 20px; max-width: 850px; text-wrap: balance; }
 .eyebrow { color: var(--primary-dark); font-size: 13px; font-weight: 700; letter-spacing: .08em; }
 .license-lead { max-width: 800px; font-size: 19px; color: var(--gray-700); }
 .license-facts { display: grid; grid-template-columns: repeat(3,1fr); gap: 24px; border-top: 1px solid var(--gray-300); padding-top: 28px; margin-top: 30px; }

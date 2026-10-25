@@ -6,11 +6,11 @@ const COURSES = [
     "sections": [
       {
         "title": "1.1 先判断是否符合经验资格",
-        "content": "<p>通常要求资格认证人在申请前10年内，累计4年B类相关journey-level或以上经验。包括能够独立施工的熟练工、直接监督施工的工头/主管；不要求全部以老板身份承包。助手或学徒时间不能直接按journey-level申报；兼职按实际相关工时折算。</p><p>学历和学徒训练可申请最多3年抵扣，但至少1年须为实际经验，具体课程与抵扣由CSLB评估。</p><p><a href=\"licensing.html#experience\">查看经验、学历与B/B2区别 →</a></p>"
+        "content": "<p>通常要求执照资格人在申请前10年内，累计4年B类相关journey-level或以上经验。包括能够独立施工的熟练工、直接监督施工的工头/主管；不要求全部以老板身份承包。助手或学徒时间不能直接按journey-level申报；兼职按实际相关工时折算。</p><p>学历和学徒训练可申请最多3年抵扣，但至少1年须为实际经验，具体课程与抵扣由CSLB评估。</p><p><a href=\"licensing.html#experience\">查看经验、学历与B/B2区别 →</a></p>"
       },
       {
         "title": "1.2 经验证明不是只找人签名",
-        "content": "<p>使用Certification of Work Experience（13A-11），每个雇主或工作情境分别填写；申请人填Part 1，直接了解施工经历的合格证明人填Part 2并签字。证明人不只限雇主，但必须亲自了解所列时期的具体施工职责。工资/税表、合同、permit/inspection及实际工时等材料须可核验；owner-builder每个项目另附13A-64。</p><p><a href=\"licensing.html#evidence\">查看证明材料与职责描述样例 →</a></p>"
+        "content": "<p>使用Certification of Work Experience（13A-11），每个雇主或工作情境分别填写；申请人填Part 1，直接了解施工经历的合格证明人填Part 2并签字。证明人不只限雇主，但必须亲自了解所列时期的具体施工职责。工资/税表、合同、permit/inspection及实际工时等材料须可核验；owner-builder每个项目另附13A-64a。</p><p><a href=\"licensing.html#evidence\">查看证明材料与职责描述样例 →</a></p>"
       },
       {
         "title": "1.3 申请、指纹和考试如何并行",
@@ -59,9 +59,9 @@ const COURSES = [
 </table>
 <h4>关键角色</h4>
 <ul>
-  <li><strong>Qualifying Individual (QI) 资格认证人</strong>：满足执照经验和考试要求的人</li>
-  <li><strong>RME (Responsible Managing Employee) 负责管理员工</strong>：作为全职员工的资格认证人</li>
-  <li><strong>RMO (Responsible Managing Officer) 负责管理官员</strong>：作为公司官员的资格认证人</li>
+  <li><strong>Qualifying Individual (QI) 执照资格人</strong>：满足执照经验和考试要求的人</li>
+  <li><strong>RME (Responsible Managing Employee) 负责管理员工</strong>：作为全职员工的执照资格人</li>
+  <li><strong>RMO (Responsible Managing Officer) 负责管理官员</strong>：作为公司官员的执照资格人</li>
 </ul>
 <h4>执照号码要求</h4>
 <p>加州法律要求承包商执照号码必须出现在<strong>所有</strong>广告、名片、合同、发票、车辆标识和工地标识上。</p>

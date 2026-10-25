@@ -28,7 +28,11 @@ document.addEventListener('DOMContentLoaded', () => {
     contracts: 'LAW · 合同执行', public: 'LAW · 公共工程',
   };
   const bank = [
-    ...ADVANCED_TRADE_QUESTIONS, ...ADVANCED_LAW_QUESTIONS,
+    ...[...ADVANCED_TRADE_QUESTIONS, ...ADVANCED_LAW_QUESTIONS].map(q => {
+      const choices = q.options.map((text, originalIndex) => ({ text, originalIndex }));
+      shuffleArray(choices);
+      return { ...q, options: choices.map(choice => choice.text), answer: choices.findIndex(choice => choice.originalIndex === q.answer) };
+    }),
     ...QUESTIONS.map(q => ({ ...q, exam: q.category === 'law' ? 'LAW' : 'B', legacy: true })),
   ];
   let currentCategory = 'all';

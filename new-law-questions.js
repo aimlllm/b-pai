@@ -233,8 +233,8 @@ const ADVANCED_LAW_QUESTIONS = [
     "section": "finance",
     "difficulty": "intermediate",
     "kind": "calculation",
-    "question": "月初现金$15,000，本月实际收款$25,000，工资及供应商等现金支出$48,000；另有尚未到账应收款$20,000。为使本月现金不为负，至少需追加多少资金？",
-    "questionEn": "Beginning cash is $15,000, actual receipts $25,000 and cash outflows $48,000. Another $20,000 is still uncollected receivables. What minimum additional funding prevents negative cash?",
+    "question": "月初现金$15,000，本月实际收款$25,000，工资及供应商等现金支出$48,000；另有尚未到账应收款$20,000。仅按月末净额计算、不考虑月内收支时序，为使月末现金余额不为负，至少需追加多少资金？",
+    "questionEn": "Beginning cash is $15,000, actual receipts $25,000 and cash outflows $48,000. Another $20,000 is still uncollected receivables. Ignoring the timing of transactions within the month, what minimum additional funding gives a nonnegative month-end cash balance?",
     "options": [
       "$0 / $0",
       "$8,000 / $8,000",
@@ -747,8 +747,8 @@ const ADVANCED_LAW_QUESTIONS = [
     "section": "contracts",
     "difficulty": "advanced",
     "kind": "scenario",
-    "question": "普通家装项目约定本期为非订金进度款$12,000，但截至付款节点所提供工作及材料合计价值仅$8,000，无适用例外。最佳处理是什么？",
-    "questionEn": "An ordinary home improvement project schedules a non-down-payment progress draw of $12,000 when only $8,000 of work and materials has been provided, with no applicable exception. What is the best response?",
+    "question": "普通家装项目约定本期为非订金进度款$12,000，但截至付款节点已完成工作及已交付材料合计价值仅$8,000，无适用例外。最佳处理是什么？",
+    "questionEn": "An ordinary home improvement project schedules a non-down-payment progress draw of $12,000 when only $8,000 of work has been completed and materials delivered, with no applicable exception. What is the best response?",
     "options": [
       "将本期款项与实际提供的工作材料价值相匹配并调整付款安排 / Match the draw to provided work and materials and adjust the schedule",
       "合同写了就可无条件先收$12,000 / The schedule alone authorizes collecting all $12,000",
@@ -784,7 +784,7 @@ const ADVANCED_LAW_QUESTIONS = [
       "按要求提供分包商姓名/名称、联系方式、执照号及分类；总包仍承担相应责任 / Supply requested names, contacts, license numbers and classifications; the prime retains its responsibility"
     ],
     "answer": 3,
-    "explanation": "2026年1月1日起SB517加入相应披露要求。消费者请求触发资料提供，不是披露即免责；报价或“有保险”等概括说法不能替代具体身份信息。",
+    "explanation": "2026年1月1日起SB517加入相应披露要求。消费者请求触发名单资料提供；合同还需按规定勾选是否使用分包，并附相应声明，变更单也有声明要求。披露不代表免责；报价或“有保险”等概括说法不能替代具体身份信息。",
     "sources": [
       {
         "title": "CSLB — 2026 License Law and Reference Book",

@@ -52,7 +52,7 @@ select, input { font: inherit; font-size: 16px; }
 .question-sources { border-top: 1px solid var(--gray-300); padding-top: 16px; margin-top: 18px; font-size: 14px; color: var(--gray-700); overflow-wrap: anywhere; }
 .question-sources ul { padding-left: 20px; margin: 8px 0; }
 .question-sources li { margin-bottom: 8px; }
-.option-btn:disabled { cursor: default; opacity: 1; }
+.option-btn:disabled { cursor: default; opacity: 1; color: var(--gray-900); }
 .empty-state { text-align: center; padding: 40px; color: var(--gray-700); }
 .legacy-note { font-size: 14px; }
 .resource-card li { margin-bottom: 14px; }
