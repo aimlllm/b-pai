@@ -2,7 +2,7 @@
 
 保留现有 indigo/slate 视觉与单页导航，使用 ui-ux-pro-max 的可见焦点、44px 操作区域与移动端溢出规则。设计稿：[练习页桌面与手机](practice-mockup.svg)，其中题目和计数为设计样本。
 
-真实入口：`/#overview` 考试概览；`/#licensing` 申请流程；`/#courses` 课程；`/#topics` 官方考纲；`/#practice` 练习；`/#resources` 资料；`/#guide` 公式与参考。
+真实入口：`/#overview` 考试概览；`/licensing.html` 申请流程；`/#courses` 课程；`/#topics` 官方考纲；`/#practice` 练习；`/#resources` 资料；`/#guide` 公式与参考。
 
 练习页状态：未答、已答正确、已答错误、筛选为空、错题为空。考试/领域/难度/题型是同页筛选，不产生新页面。申请指南用可展开区块减少手机阅读负担，关键期限始终可见。
 

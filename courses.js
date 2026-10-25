@@ -1,116 +1,24 @@
 const COURSES = [
-  // ============================================================
-  // 第一部分：执照申请指南
-  // ============================================================
   {
-    id: "license-guide",
-    title: "第一章：加州承包商执照申请指南",
-    icon: "📋",
-    sections: [
+    "id": "license-guide",
+    "title": "第一章：执照申请与经验证明",
+    "icon": "📋",
+    "sections": [
       {
-        title: "1.1 谁需要执照？",
-        content: `
-<p>在加州，从事建筑、改建任何建筑物、公路、道路、停车设施、铁路、挖掘工程或其他结构的所有企业或个人，如果项目<strong>需要建筑许可证</strong>，或使用额外工人，或项目总成本（人工和材料）达到<strong>$1,000或以上</strong>，则必须获得加州承包商执照委员会 (CSLB) 的执照。</p>
-<div class="note-box">
-  <strong>2025年重要更新：</strong>根据 Assembly Bill 2622，从2025年1月1日起，执照门槛从$500提高到$1,000。
-</div>
-<p>执照可颁发给：个人、合伙企业、公司、合资企业或有限责任公司 (LLC)。</p>
-`
+        "title": "1.1 先判断是否符合经验资格",
+        "content": "<p>通常要求资格认证人在申请前10年内，累计4年B类相关journey-level或以上经验。包括能够独立施工的熟练工、直接监督施工的工头/主管；不要求全部以老板身份承包。助手或学徒时间不能直接按journey-level申报；兼职按实际相关工时折算。</p><p>学历和学徒训练可申请最多3年抵扣，但至少1年须为实际经验，具体课程与抵扣由CSLB评估。</p><p><a href=\"licensing.html#experience\">查看经验、学历与B/B2区别 →</a></p>"
       },
       {
-        title: "1.2 执照分类",
-        content: `
-<p>加州提供超过43种承包商执照分类，主要类别：</p>
-<table>
-  <tr><th>分类</th><th>名称</th><th>范围</th></tr>
-  <tr><td><strong>A 类</strong></td><td>General Engineering 一般工程</td><td>基础设施项目（道路、桥梁、公用设施）</td></tr>
-  <tr><td><strong>B 类</strong></td><td>General Building 一般建筑</td><td>结构性建筑项目</td></tr>
-  <tr><td><strong>C 类</strong></td><td>Specialty 专业分包</td><td>C-10电气、C-36管道、C-20暖通等</td></tr>
-</table>
-<h4>B 类执照的工作范围</h4>
-<p>B 类（General Building）承包商可以承接框架或木工项目的总包合同或分包合同。但是，B 类承包商<strong>不得</strong>承接仅涉及框架或木工以外行业的总包合同，除非该合同需要<strong>至少两个不相关的建筑工种或技术</strong>。</p>
-`
+        "title": "1.2 经验证明不是只找人签名",
+        "content": "<p>使用Certification of Work Experience（13A-11），每个雇主或工作情境分别填写；申请人填Part 1，直接了解施工经历的合格证明人填Part 2并签字。证明人不只限雇主，但必须亲自了解所列时期的具体施工职责。工资/税表、合同、permit/inspection及实际工时等材料须可核验；owner-builder每个项目另附13A-64。</p><p><a href=\"licensing.html#evidence\">查看证明材料与职责描述样例 →</a></p>"
       },
       {
-        title: "1.3 申请流程（8个步骤）",
-        content: `
-<div class="steps-list">
-  <div class="step">
-    <div class="step-num">1</div>
-    <div class="step-content">
-      <h4>选择执照分类和资格认证人</h4>
-      <p>选择适合您职业的执照分类。您或您企业中的另一人将担任"资格认证人"(Qualifier)，负责满足 CSLB 执照要求。资格认证人可以是 RME（负责管理员工）或 RMO（负责管理官员）。</p>
-    </div>
-  </div>
-  <div class="step">
-    <div class="step-num">2</div>
-    <div class="step-content">
-      <h4>记录工作经验</h4>
-      <p>提交由雇主签署的工作经验证明表。要求在过去10年内拥有<strong>至少4年</strong>的journeyman级别工作经验。认证人应是直接监督您工作的人——通常是持照承包商、雇主、工头或工会代表。</p>
-    </div>
-  </div>
-  <div class="step">
-    <div class="step-num">3</div>
-    <div class="step-content">
-      <h4>完成并提交申请</h4>
-      <p>可在 CSLB 官网在线完成或下载纸质申请。申请费用为<strong>$450</strong>。使用可追踪的邮件方式寄送。</p>
-    </div>
-  </div>
-  <div class="step">
-    <div class="step-num">4</div>
-    <div class="step-content">
-      <h4>指纹采集和背景调查</h4>
-      <p>在授权地点安排 Live Scan 指纹采集（费用约$49-$59）。</p>
-    </div>
-  </div>
-  <div class="step">
-    <div class="step-num">5</div>
-    <div class="step-content">
-      <h4>等待申请处理</h4>
-      <p>CSLB 将在<strong>4-6周内</strong>确认接受，并提供跟踪号码和 PIN。注意：超过一半的申请因小错误被退回或拒绝。</p>
-    </div>
-  </div>
-  <div class="step">
-    <div class="step-num">6</div>
-    <div class="step-content">
-      <h4>通过考试</h4>
-      <p>所有类型执照都必须通过<strong>法律与商业考试</strong>。第二项考试根据分类不同而异——B 类需参加 General Building 行业考试。考试在 PSI 考试中心进行。如未通过，需等待至少<strong>3周</strong>后重考。</p>
-    </div>
-  </div>
-  <div class="step">
-    <div class="step-num">7</div>
-    <div class="step-content">
-      <h4>完成石棉开卷考试</h4>
-      <p>所有新申请人必须完成石棉 (Asbestos) 开卷考试。该考试和验证表必须在发照前提交给 CSLB。</p>
-    </div>
-  </div>
-  <div class="step">
-    <div class="step-num">8</div>
-    <div class="step-content">
-      <h4>获得保证金和保险，领取执照</h4>
-      <p>必须获得承包商保证金（最低$25,000）和适用保险。初始执照费：独资企业 <strong>$200</strong>，非独资企业 <strong>$350</strong>。</p>
-    </div>
-  </div>
-</div>
-`
+        "title": "1.3 申请、指纹和考试如何并行",
+        "content": "<p>先准备实体、资格人、经验证明与申请费$450；申请accepted/posted后，按通知进行PSI预约和专用Live Scan。两条可并行；备考与材料准备可提前同步。发照前须满足考试、背景审查、石棉开卷、保证金、保险/适用豁免和费用等要求。通过考试本身不会自动发照。</p><p><a href=\"licensing.html#roadmap\">查看依赖路线和可并行任务 →</a></p>"
       },
       {
-        title: "1.4 费用一览",
-        content: `
-<table>
-  <tr><th>项目</th><th>独资企业 (Sole Owner)</th><th>非独资企业</th></tr>
-  <tr><td>申请费</td><td colspan="2">$450</td></tr>
-  <tr><td>初始执照费</td><td>$200</td><td>$350</td></tr>
-  <tr><td>指纹/背景调查</td><td colspan="2">~$49–$59</td></tr>
-  <tr><td>承包商保证金（最低$25,000，缴纳保费）</td><td colspan="2">保费因情况而异</td></tr>
-  <tr><td>考试准备课程（可选）</td><td colspan="2">$300–$800</td></tr>
-  <tr><td><strong>总投入估计</strong></td><td><strong>$1,500–$3,000</strong></td><td><strong>$1,650–$3,150</strong></td></tr>
-</table>
-<h4>时间线</h4>
-<p>典型时间线为<strong>6-9个月</strong>：申请处理1-2个月，准备和通过考试1-3个月，最终发照1-2个月。</p>
-<h4>执照更新</h4>
-<p>执照每<strong>2年</strong>更新一次。续期费：独资企业 $450，非独资企业 $700（C-10 电气分类各加$20）。必须维持保证金和工伤保险。可在到期前90天内在线续期。逾期续期需缴纳额外费用（50%附加费）。</p>
-`
+        "title": "1.4 硬期限与费用",
+        "content": "<p>18个月考试窗口从CSLB接受/posted开始；退件补正、指纹packet和发证补料各有独立的90天起算事件。重考至少21天，改期通常须提前48小时。通知上具体日期优先。</p><p>初始执照费独资$200，其他实体$350；$25,000是承包商保证金额度，不等于每人必须交$25,000现金。保费、指纹服务费、保险及LLC附加要求另计，办理总时长取决于实际处理与补件。</p><p><a href=\"licensing.html#deadlines\">查看期限起点与官方依据 →</a></p>"
       }
     ]
   },
@@ -126,12 +34,12 @@ const COURSES = [
       {
         title: "2.1 考试概览",
         content: `
-<p>法律与商业考试是所有承包商执照申请人的<strong>必考科目</strong>。</p>
+<p>法律与商业考试通常是申请条件；法定免考情形应单独审核，不能默认适用。</p>
 <table>
   <tr><th>项目</th><th>详情</th></tr>
-  <tr><td>题目数量</td><td>约 115 道选择题</td></tr>
-  <tr><td>考试时间</td><td>2.5 小时（150 分钟）</td></tr>
-  <tr><td>通过分数</td><td>72%</td></tr>
+  <tr><td>题目数量</td><td>以当次考场说明为准</td></tr>
+  <tr><td>考试时间</td><td>3.5 小时（210 分钟）</td></tr>
+  <tr><td>通过分数</td><td>以考场公布要求为准</td></tr>
   <tr><td>考试形式</td><td>闭卷，在 PSI 考试中心电脑作答</td></tr>
 </table>
 <p>主要参考资料：<em>California Contractors License Law & Reference Book</em>（LexisNexis/Matthew Bender 出版）</p>
@@ -176,7 +84,7 @@ const COURSES = [
   <li>金额超过 <strong>$500</strong> 的家庭装修项目必须使用书面合同</li>
   <li>合同必须包含：承包商姓名、地址、执照号码</li>
   <li>必须包含工作描述、材料说明、总价</li>
-  <li>业主有 <strong>3个工作日</strong>的合同取消权（Home Solicitation）</li>
+  <li>符合适用条件的住宅装修合同通常有<strong>3个工作日</strong>取消权；65岁及以上通常为<strong>5个工作日</strong>，营业场所协商、合条件service-and-repair等例外另核对。2026年起合同应含email取消渠道等AB1327信息。</li>
   <li>首付不得超过合同总价的 <strong>10%</strong> 或 <strong>$1,000</strong>（取较小值）</li>
 </ul>
 <h4>合同的四要素</h4>
@@ -194,30 +102,30 @@ const COURSES = [
 <h4>机械留置权 (Mechanic's Lien)</h4>
 <p>机械留置权是建筑行业中保护<strong>分包商、材料供应商和工人</strong>获得付款的主要法律工具。如果承包商未收到付款，可以对财产提出留置权。</p>
 <h4>预先通知 (Preliminary Notice)</h4>
-<p>分包商和材料供应商必须在开始工作或提供材料后 <strong>20天内</strong> 发出预先通知，以保留留置权权利。</p>
+<p>需要发出预先通知的分包商/供应商宜在首次供工/供料后20天内通知；迟发通常仍可覆盖通知前20天及之后的供工供料，并非一律失去全部权利。主体与送达对象另按适用规则核对。</p>
 <h4>保证金类型</h4>
 <table>
   <tr><th>保证金类型</th><th>英文</th><th>说明</th></tr>
   <tr><td>投标保证金</td><td>Bid Bond</td><td>涉及3方（承包商、业主、担保人），保证中标后签约</td></tr>
-  <tr><td>履约保证金</td><td>Performance Bond</td><td>罚金金额等于<strong>合同全额</strong>，保证按合同完成工程</td></tr>
+  <tr><td>履约保证金</td><td>Performance Bond</td><td>按实际保证金文件确定担保金额和条件，不能把所有合同一律设为100%</td></tr>
   <tr><td>付款保证金</td><td>Payment Bond</td><td>保证分包商和供应商获得付款</td></tr>
   <tr><td>承包商保证金</td><td>Contractor's Bond</td><td>最低 $25,000，保护消费者</td></tr>
 </table>
 <h4>保留金 (Retainage)</h4>
-<p>从每次付款中扣留的部分（通常 <strong>5-10%</strong>），在工程实质性完工 (Substantial Completion) 后才释放，用于保障工程质量。</p>
+<p>从进度款中暂扣的部分，用于保障履约；比例、可扣范围和释放期限须按项目类型、适用法律及合同判断，不能一律按5–10%或实质完工即释放。</p>
 `
       },
       {
         title: "2.5 劳动法与雇佣",
         content: `
-<p>此部分约占考试的 <strong>20%</strong>（约23题），是权重最大的单个领域。</p>
+<p>此部分约占考试的 <strong>20%</strong>；合同执行21%也应重点复习。</p>
 <h4>关键要点</h4>
 <ul>
   <li><strong>工资记录保留</strong>：根据 FLSA，雇主必须保留基本工资记录至少<strong>3年</strong>；辅助记录（如考勤卡、工时表等工资计算依据）至少<strong>2年</strong></li>
   <li><strong>现行工资法 (Prevailing Wage)</strong>：公共项目必须按规定工资标准支付，旨在平衡本地和非本地工人的竞争</li>
   <li><strong>员工分类</strong>：正确区分员工 (Employee) 和独立承包商 (Independent Contractor)</li>
-  <li><strong>加班规定</strong>：每天超过8小时或每周超过40小时需支付1.5倍工资</li>
-  <li><strong>工伤保险</strong>：雇用员工的承包商必须购买工伤赔偿保险 (Workers' Compensation)。没有员工的独资企业主可向 CSLB 提交豁免证书 (Certificate of Exemption)</li>
+  <li><strong>加班规定</strong>：普通非豁免员工在无适用例外时，日超过8至12小时、周超过40小时或同一工作周第7日首8小时通常适用1.5倍；日超过12小时或第7日超过8小时通常适用2倍，不能重复累计同一小时。须核对适用wage order/例外。</li>
+  <li><strong>工伤保险</strong>：雇用员工的承包商必须购买工伤赔偿保险 (Workers' Compensation)。无员工且符合条件的B类可提交豁免；有RME也属有员工。C-8/C-20/C-22/C-39/D-49等类别另有强制规定，不能只按独资身份判断</li>
 </ul>
 `
       },
@@ -260,7 +168,7 @@ const COURSES = [
         content: `
 <p>加州建筑标准法典 (California Building Standards Code) 即加州法规 Title 24，是加州法律规定的建筑设计和施工<strong>最低标准</strong>。州法律要求地方政府执行这些法规。</p>
 <div class="note-box">
-  <strong>2025 规范周期更新：</strong>加州建筑标准法典每3年更新一次。<strong>2025 版 Title 24</strong> 已于 2026年1月1日起生效，取代 2022 版。考试内容将基于当前生效的规范版本，请以最新版本为准。
+  <strong>2025 规范周期更新：</strong>加州建筑标准法典每3年更新一次。<strong>2025 版 Title 24</strong> 已于 2026年1月1日起生效，取代 2022 版。当前CSLB 13E-B (03-2026)参考书已列2025系列。备考以该考纲列书为起点，工程施工还须核对当地适用规则。
 </div>
 <h4>Title 24 主要部分</h4>
 <table>
@@ -284,8 +192,8 @@ const COURSES = [
         content: `
 <h4>最低层高</h4>
 <ul>
-  <li>居住房间 (Habitable Rooms) 最低层高：<strong>7英尺6英寸 (7'6")</strong></li>
-  <li>走廊、浴室等非居住空间最低层高：<strong>7英尺 (7'0")</strong></li>
+  <li>先确认适用CBC/CRC、建筑用途与例外，再查对应层高条款；不能把不同规范一律概括为7英尺6英寸</li>
+  <li>走廊、浴室、斜顶、梁底等可能有不同规则，不把单一数字作为所有空间的结论</li>
 </ul>
 <h4>自然采光</h4>
 <p>居住房间的玻璃面积不得少于房间地板面积的 <strong>8%</strong>。</p>
@@ -588,7 +496,7 @@ const COURSES = [
   4,500W 热水器，240V 单相：<br>
   电流 = 4,500W ÷ 240V = 18.75A<br>
   按 125% 计算：18.75 × 1.25 = 23.4A<br>
-  下一个标准断路器尺寸 = <strong>30A</strong>
+  这是指定系数下的<strong>载流量计算值</strong>，不是最大断路器结论；不能从23.4A直接断言“下一档是30A”（序列还包含25A）。选型还须核对设备和导线。
 </div>
 <h4>爱迪生基座保险丝 (Edison Base Fuses)</h4>
 <p>在所有新建工程中<strong>被禁止使用</strong>，因为不同额定值的保险丝可以互换，存在安全隐患。仅允许在现有住宅安装中替换使用。</p>
@@ -763,7 +671,7 @@ const COURSES = [
   <strong>Cal/OSHA vs 联邦 OSHA：</strong>加州通过 Cal/OSHA 运行经 OSHA 批准的州计划，必须至少与联邦法律同样严格——实际上 Cal/OSHA 通常<strong>超过</strong>联邦要求。
 </div>
 <h4>安全在考试中的比重</h4>
-<p>安全部分约占 B 牌考试的 <strong>12-15%</strong>（约14-17题），法律与商业考试约 <strong>14%</strong>（约16题）。</p>
+<p>03-2026官方考纲：B安全约15%，LAW安全约14%；不根据假定总题数反推题量。</p>
 `
       },
       {
@@ -772,13 +680,13 @@ const COURSES = [
 <h4>触发高度</h4>
 <table>
   <tr><th>情况</th><th>触发高度</th></tr>
-  <tr><td>一般建筑施工</td><td><strong>6英尺</strong></td></tr>
-  <tr><td>钢结构连接工作</td><td>30英尺（2层楼）</td></tr>
-  <tr><td>无防护平台</td><td>7.5英尺</td></tr>
-  <tr><td>涉及钢筋等突出物的工作</td><td>6英尺</td></tr>
+  <tr><td>加州一般个人防坠条款§1670(a)</td><td>超过7.5ft且缺乏适用保护；具体作业有独立条款，不能套用统一6ft。</td></tr>
+  <tr><td>钢结构连接工作</td><td>核对§1710(m)：超过两层或30ft取较低者有防坠要求，15–30ft也有装备配置/穿戴等规定，并非以下免保护。</td></tr>
+  <tr><td>平台、开口、边缘</td><td>分别核对护栏、开口和具体施工条款，不能由一张统一高度表替代。</td></tr>
+  <tr><td>突出钢筋刺穿风险</td><td>按§1712防止跌落刺穿，不可套用统一6ft安全豁免。</td></tr>
 </table>
 <h4>Cal/OSHA Section 1670</h4>
-<p>专门规定建筑施工中的坠落防护要求。沟槽作业面的坠落防护触发高度为 <strong>7.5英尺</strong>。</p>
+<p>该条规定特定情形的个人防坠系统；开口、沟槽周边、通行面及具体工种还须分别查适用条款。<a href="https://www.dir.ca.gov/title8/1670.html" target="_blank" rel="noopener">§1670原文</a>。</p>
 <h4>防护系统优先级</h4>
 <ol>
   <li><strong>被动系统优先</strong>：脚手架、护栏 (Guardrails)、安全网 (Safety Nets)</li>
@@ -790,7 +698,7 @@ const COURSES = [
         title: "7.3 沟槽开挖安全 (Trenching & Excavation)",
         content: `
 <h4>防护系统要求</h4>
-<p>沟槽深度超过 <strong>5英尺</strong> 时必须安装防护系统。三种防护方式：</p>
+<p>每名暴露于坍塌风险的员工均需保护；例外为完全稳定岩石，或不足5ft且由competent person判定无坍塌迹象。因此非稳定岩石达到5ft需防护，浅于5ft也非自动豁免。三种防护方式：</p>
 <table>
   <tr><th>方式</th><th>英文</th><th>说明</th></tr>
   <tr><td>支撑</td><td>Shoring</td><td>使用支撑结构防止土壁坍塌</td></tr>
@@ -837,10 +745,10 @@ const COURSES = [
   <li>提供员工培训</li>
 </ul>
 <h4>废物分类</h4>
-<p>固化后的乳胶漆属于<strong>非危险废物</strong>。但油性漆可能被归类为危险废物。</p>
+<p>加州废漆应按规定送至适用PaintCare/危险废物接收点，不能把乳胶漆晒干后随意扔垃圾。须核对品类、数量及商业废物接收资格。<a href="https://calrecycle.ca.gov/Paint/" target="_blank" rel="noopener">CalRecycle说明</a>。</p>
 <h4>电动工具安全</h4>
 <ul>
-  <li><strong>台锯 (Table Saw)</strong>：手指距锯片至少 <strong>4英寸</strong></li>
+  <li><strong>台锯 (Table Saw)</strong>：按设备要求使用护罩、防反弹装置及推料工具；不能依赖统一4英寸距离规则</li>
   <li><strong>气动钉枪</strong>：气压不得超过<strong>制造商规定的最大值</strong></li>
   <li><strong>凿子 (Chisel)</strong>：向远离身体方向凿、使用锋利凿子、固定工件</li>
 </ul>
@@ -870,11 +778,11 @@ const COURSES = [
         content: `
 <table>
   <tr><th>项目</th><th>行业考试 (Trade)</th><th>法律与商业 (Law & Business)</th></tr>
-  <tr><td>题目数量</td><td>115 题</td><td>~115 题</td></tr>
-  <tr><td>考试时间</td><td>210 分钟 (3.5小时)</td><td>150 分钟 (2.5小时)</td></tr>
-  <tr><td>通过分数</td><td>72%</td><td>72%</td></tr>
+  <tr><td>题目数量</td><td colspan="2">以考场说明为准，不在本站承诺固定题数</td></tr>
+  <tr><td>考试时间</td><td>210 分钟 (3.5小时)</td><td>210 分钟 (3.5小时)</td></tr>
+  <tr><td>通过分数</td><td>以考场公布要求为准</td><td>以考场公布要求为准</td></tr>
   <tr><td>考试形式</td><td>闭卷，电脑答题</td><td>闭卷，电脑答题</td></tr>
-  <tr><td>每题平均时间</td><td>~1.8 分钟</td><td>~1.5 分钟</td></tr>
+  <tr><td>时间管理</td><td colspan="2">按当次题数分配3.5小时并预留检查时间</td></tr>
 </table>
 <p>两项考试均为单选题，每题4个选项。部分题目需要数学计算。考试在 PSI 考试中心进行。行业考试可能附有<strong>蓝图和图纸</strong>参考。</p>
 `
@@ -882,26 +790,7 @@ const COURSES = [
       {
         title: "8.2 考试科目权重",
         content: `
-<h4>B 牌行业考试权重</h4>
-<table>
-  <tr><th>科目</th><th>权重</th><th>约题数</th></tr>
-  <tr><td>建筑施工知识（混凝土、木工、屋顶、砌体）</td><td>~30%</td><td>~35题</td></tr>
-  <tr><td>建筑规范（CBC, CFC, Energy Code）</td><td>~25%</td><td>~29题</td></tr>
-  <tr><td>电气（CEC/NEC）</td><td>~15%</td><td>~17题</td></tr>
-  <tr><td>管道与暖通（CPC, CMC）</td><td>~15%</td><td>~17题</td></tr>
-  <tr><td>安全（Cal/OSHA）</td><td>~15%</td><td>~17题</td></tr>
-</table>
-<h4>法律与商业考试权重</h4>
-<table>
-  <tr><th>科目</th><th>权重</th><th>约题数</th></tr>
-  <tr><td>劳动法与雇佣</td><td>~20%</td><td>~23题</td></tr>
-  <tr><td>合同（家装、公共工程等）</td><td>~18%</td><td>~18题</td></tr>
-  <tr><td>安全 / Cal-OSHA</td><td>~14%</td><td>~16题</td></tr>
-  <tr><td>承包商执照法 / 商业组织</td><td>~14%</td><td>~14题</td></tr>
-  <tr><td>机械留置权法 / 保险与保证金</td><td>~12%</td><td>~14题</td></tr>
-  <tr><td>商业管理</td><td>~12%</td><td>~12题</td></tr>
-  <tr><td>运营管理</td><td>~10%</td><td>~10题</td></tr>
-</table>
+<h4>B 牌行业考试权重</h4><table><tr><th>领域</th><th>近似权重</th></tr><tr><td>规划与估算</td><td>15%</td></tr><tr><td>框架与结构</td><td>20%</td></tr><tr><td>核心工种</td><td>30%</td></tr><tr><td>装修工种</td><td>20%</td></tr><tr><td>安全</td><td>15%</td></tr></table><h4>法律与商业考试权重</h4><table><tr><th>领域</th><th>近似权重</th></tr><tr><td>组织与执照</td><td>13%</td></tr><tr><td>商业财务</td><td>15%</td></tr><tr><td>雇佣</td><td>20%</td></tr><tr><td>保险与留置权</td><td>12%</td></tr><tr><td>合同要求与执行</td><td>21%</td></tr><tr><td>公共工程</td><td>5%</td></tr><tr><td>安全</td><td>14%</td></tr></table><p>依据CSLB 13E-B及13E-LAW (03-2026)。不根据假定题数反推各类题量。</p>
 `
       },
       {
@@ -912,7 +801,7 @@ const COURSES = [
   <li>根据科目权重<strong>按比例分配复习时间</strong></li>
   <li>在薄弱科目上投入更多时间</li>
   <li>使用定时练习模拟考试条件</li>
-  <li>目标：在多次模拟测试中稳定达到 <strong>72%以上</strong></li>
+  <li>建议自定高于日常练习水平的掌握目标，并能解释错项；练习分数不等于官方及格线</li>
 </ul>
 <h4>答题技巧</h4>
 <ul>
@@ -925,7 +814,7 @@ const COURSES = [
 </ul>
 <h4>时间管理</h4>
 <ul>
-  <li>行业考试每题约 <strong>1.8分钟</strong>，法律考试约 <strong>1.5分钟</strong></li>
+  <li>两科均按<strong>3.5小时</strong>及当次实际题数安排时间</li>
   <li>不要在单题上花费过多时间——标记后继续</li>
   <li>预留 <strong>15-20分钟</strong> 回顾标记的题目</li>
 </ul>
@@ -942,7 +831,7 @@ const COURSES = [
   <li>每次重考需要支付额外费用</li>
   <li>利用等待时间复习失分最多的领域</li>
   <li>考虑报名正式的备考课程</li>
-  <li>没有考试次数限制——可以多次参加</li>
+  <li>在本次18个月申请窗口内可安排多次重考，仍须遵守至少21天间隔与付费要求</li>
 </ul>
 `
       }

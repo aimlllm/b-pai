@@ -1,48 +1,32 @@
-# California B Contractor License Exam Prep (加州B牌承包商执照考试准备)
+# California B Contractor License Exam Prep
 
-> Free Chinese-language study website for the California General Building (B) contractor license exam (CSLB). Includes bilingual practice questions, 8-chapter study course, and exam strategies.
+> Independent Chinese-English study website. Not affiliated with CSLB. Verified against official sources on 2026-10-25.
 
-## Site Overview
-This website helps Chinese-speaking candidates prepare for the California Contractors State License Board (CSLB) General Building B license exam. All content is in Simplified Chinese with English terminology preserved.
+## Current exam baseline
+- Official outlines: B 13E-B (03-2026), LAW 13E-LAW (03-2026).
+- B approximate weights: Planning & Estimating 15%, Framing & Structural Components 20%, Core Trades 30%, Finish Trades 20%, Safety 15%.
+- LAW approximate weights: Business Organization & Licensing 13%, Business Finances 15%, Employment 20%, Insurance & Liens 12%, Contracts 21%, Public Works 5%, Safety 14%.
+- Each examination is closed-book, four-option multiple-choice, with 3.5 hours. Do not assert a fixed question count or universal passing percentage from this site.
+- B outline lists 2025 California codes. Applicability date on the cover and revision date are distinct.
 
-## Key Facts
-- The B license trade exam has 115 multiple-choice questions, 210 minutes, 72% passing score
-- The Law & Business exam has ~115 questions, 150 minutes, 72% passing score
-- Both exams are closed-book at PSI testing centers
-- Requires 4 years of journey-level experience in the last 10 years
-- Application fee: $450, Initial license fee: $200-$350
-- Total cost: $1,500-$3,000, Timeline: 6-9 months
-- Contractor bond minimum: $25,000
-- License threshold: $1,000+ projects require a license (updated 2025)
+## Practice bank
+- 95 new original bilingual questions: 60 B and 35 LAW, including 40 calculation problems. Each has explanation, source purpose, verification date and difficulty.
+- 65 legacy foundation questions remain separate and are not collectively labelled verified-current.
+- Practice scores do not establish official exam readiness or passing status.
 
-## Trade Exam Subjects
-- Construction Knowledge ~30%: concrete, carpentry, roofing, masonry, construction math
-- Building Codes ~25%: California Building Code (CBC), Fire Code, Energy Code, Title 24
-- Electrical ~15%: California Electrical Code based on NEC
-- Plumbing & HVAC ~15%: California Plumbing Code, Mechanical Code (IAPMO)
-- Safety ~15%: Cal/OSHA Construction Safety Orders, Title 8
+## Licensing guide
+https://cslb.scalintel.com/licensing.html
+- Normally four years of qualifying journey-level or higher experience in the prior ten years; part-time is prorated.
+- Education/training credits may be granted up to three years, at least one year practical experience, subject to CSLB review.
+- Certification form 13A-11 and firsthand certifier; owner-builder adds project-specific 13A-64.
+- After acceptance, fingerprint and examination tasks may proceed in parallel after their respective notices.
+- Pass exams within 18 months of acceptance/posted; 21 calendar days for retake waiting, two days to cancel/reschedule without forfeiting fee.
+- Separate 90-day triggers apply to returned application, receipt of Live Scan packet, and issuance notices.
+- Passed exam results can remain valid five years; this does not extend the current application window.
+- Application fee $450, initial fee $200 sole owner or $350 other entities. Bond $25,000 is coverage, not automatically a cash cost. Other actual fees/insurance vary.
 
-## Law & Business Exam Subjects
-- Employment/Labor Law ~20%
-- Contracts ~18%
-- Safety/Cal-OSHA ~14%
-- Contractor License Law ~14%
-- Mechanics' Lien Law/Insurance/Bonds ~12%
-- Business Management ~12%
-- Operations Management ~10%
-
-## Reference Codes (current as of 2026)
-- 2025 California Building Standards Code, Title 24 (effective January 1, 2026)
-- Cal/OSHA Construction Safety Orders, Title 8
-- California Contractors License Law & Reference Book
-
-## What This Site Offers
-- 65+ bilingual (Chinese-English) practice questions with explanations
-- 8-chapter systematic study course covering all exam topics
-- Exam overview with key statistics
-- Study resources and official CSLB links
-- Key numbers and formulas to memorize
-- Step-by-step license application guide
-
-## Official Source
-California Contractors State License Board (CSLB): https://www.cslb.ca.gov
+## Authoritative sources
+https://www.cslb.ca.gov/Resources/StudyGuides/BStudyGuide.pdf
+https://www.cslb.ca.gov/Resources/StudyGuides/LawStudyGuide.pdf
+https://web.cslb.ca.gov/About_Us/Examination_FAQ.aspx
+https://www.cslb.ca.gov/Contractors/Applicants/Contractors_License/Exam_Application/

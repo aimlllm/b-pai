@@ -27,6 +27,47 @@
   --gray-900: #0F172A;
 }
 
+/* Current bank and licensing guidance, 2026-10-25. */
+html { scroll-padding-top: 80px; }
+button, select, summary { min-height: 44px; }
+button, select, a, summary { touch-action: manipulation; }
+button:focus-visible, select:focus-visible, a:focus-visible, summary:focus-visible {
+  outline: 3px solid var(--primary-dark); outline-offset: 4px;
+}
+select, input { font: inherit; font-size: 16px; }
+.hero-guide-link { display: block; color: #fff; margin-top: 24px; text-decoration: underline; }
+.update-notice { background: var(--primary-light); border-left: 4px solid var(--primary); padding: 20px; border-radius: 8px; margin-bottom: 24px; }
+.update-notice p { margin-top: 8px; }
+.advanced-filters { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 16px; width: 100%; margin-bottom: 16px; }
+.advanced-filters label { display: grid; gap: 7px; font-size: 14px; font-weight: 600; color: var(--gray-700); }
+.advanced-filters select { width: 100%; min-width: 0; padding: 10px; border: 1px solid var(--gray-300); border-radius: 6px; background: #fff; color: var(--gray-900); }
+.practice-controls { flex-direction: column; align-items: stretch; }
+.subject-details summary { cursor: pointer; color: var(--gray-700); padding: 10px 0; }
+.practice-actions { flex-wrap: wrap; }
+.filter-status, .source-caption { color: var(--gray-700); font-size: 15px; margin: 12px 0 20px; }
+.question-meta { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.question-meta .question-category { margin-bottom: 0; }
+.question-badge { background: var(--gray-100); color: var(--gray-700); font-size: 13px; border-radius: 5px; padding: 4px 9px; }
+.question-provenance { font-size: 13px; color: var(--gray-500); margin: 10px 0 18px; }
+.question-sources { border-top: 1px solid var(--gray-300); padding-top: 16px; margin-top: 18px; font-size: 14px; color: var(--gray-700); overflow-wrap: anywhere; }
+.question-sources ul { padding-left: 20px; margin: 8px 0; }
+.question-sources li { margin-bottom: 8px; }
+.option-btn:disabled { cursor: default; opacity: 1; }
+.empty-state { text-align: center; padding: 40px; color: var(--gray-700); }
+.legacy-note { font-size: 14px; }
+.resource-card li { margin-bottom: 14px; }
+@media (max-width: 700px) {
+  .advanced-filters { grid-template-columns: 1fr 1fr; gap: 12px; }
+  .advanced-filters label:first-child { grid-column: 1 / -1; }
+  .hero-stats { gap: 24px; }
+  .hero-stats .stat-num { font-size: 2rem; }
+  .practice-actions .btn-secondary { flex: 1 1 auto; }
+  .question-card { overflow-wrap: anywhere; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; animation: none !important; transition: none !important; }
+}
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
   color: var(--gray-900);
@@ -131,7 +172,7 @@ a:hover { text-decoration: underline; }
 /* Practice Section */
 .practice-controls {
   display: flex; flex-wrap: wrap; justify-content: space-between;
-  align-items: flex-start; gap: 16px; margin-bottom: 20px;
+  align-items: stretch; gap: 16px; margin-bottom: 20px;
 }
 .category-filters { display: flex; flex-wrap: wrap; gap: 8px; }
 .filter-btn {

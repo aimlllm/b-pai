@@ -1,0 +1,51 @@
+.license-header { margin-top: 60px; padding: 64px 0 40px; background: var(--gray-50); border-bottom: 1px solid var(--gray-200); }
+.license-header h1 { font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.25; margin: 14px 0 20px; max-width: 850px; }
+.eyebrow { color: var(--primary-dark); font-size: 13px; font-weight: 700; letter-spacing: .08em; }
+.license-lead { max-width: 800px; font-size: 19px; color: var(--gray-700); }
+.license-facts { display: grid; grid-template-columns: repeat(3,1fr); gap: 24px; border-top: 1px solid var(--gray-300); padding-top: 28px; margin-top: 30px; }
+.license-facts div { display: flex; flex-direction: column; gap: 6px; }
+.license-facts strong { font-size: 28px; color: var(--primary-dark); }
+.license-facts span { color: var(--gray-700); }
+.license-links { display: flex; flex-wrap: wrap; gap: 8px 24px; margin-top: 28px; }
+.license-links a, .return-link { display: inline-flex; align-items: center; min-height: 44px; }
+.reading-width { max-width: 1000px; }
+.licensing-page h2 { text-align: left; font-size: clamp(1.5rem, 3vw, 2rem); line-height: 1.4; margin: 10px 0 28px; }
+.licensing-page h3 { font-size: 19px; margin-bottom: 10px; }
+.licensing-page p { margin-bottom: 16px; }
+.licensing-page li { margin-bottom: 10px; }
+.licensing-page ul, .license-steps { padding-left: 24px; }
+.two-column { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin: 24px 0; }
+.license-panel { border: 1px solid var(--gray-300); border-radius: 10px; padding: 24px; background: #fff; }
+.license-detail { margin: 20px 0; border-top: 1px solid var(--gray-300); }
+.license-detail summary { padding: 18px 0; font-size: 18px; font-weight: 650; cursor: pointer; }
+.license-detail > div { padding: 4px 0 8px; }
+.boundary-note { border-left: 3px solid var(--gray-300); padding-left: 20px; color: var(--gray-700); margin-top: 24px; }
+.evidence-list { margin: 26px 0; display: grid; gap: 18px; }
+.evidence-list article { display: grid; grid-template-columns: 190px 1fr; gap: 24px; border-top: 1px solid var(--gray-300); padding-top: 18px; }
+.phase { display: grid; grid-template-columns: 48px 1fr; gap: 20px; padding-bottom: 30px; margin-bottom: 28px; border-bottom: 1px solid var(--gray-200); }
+.phase-number { display: grid; place-content: center; width: 44px; height: 44px; border-radius: 50%; background: var(--primary-light); color: var(--primary-dark); font-size: 20px; font-weight: 700; }
+.parallel-lanes { background: var(--gray-50); border: 1px solid var(--gray-200); padding: 20px; border-radius: 8px; }
+.parallel-label { color: #166534; font-weight: 600; }
+.gate-label { color: var(--primary-dark); font-weight: 600; }
+.deadline-list article { display: grid; grid-template-columns: 130px 1fr; gap: 24px; padding: 24px 0; border-top: 1px solid var(--gray-300); }
+.deadline-value { font-size: 26px; color: var(--primary-dark); font-weight: 700; }
+@media (max-width: 650px) {
+  .license-header { padding: 36px 0 24px; }
+  .license-facts { gap: 18px; grid-template-columns: 1fr; }
+  .license-facts div { flex-direction: row; align-items: baseline; gap: 16px; }
+  .license-facts strong { flex: 0 0 108px; font-size: 24px; }
+  .license-facts span { font-size: 14px; }
+  .two-column, .evidence-list article { grid-template-columns: 1fr; gap: 12px; }
+  .license-panel { padding: 18px; }
+  .phase { grid-template-columns: 36px 1fr; gap: 12px; }
+  .phase-number { width: 32px; height: 32px; font-size: 16px; }
+  .deadline-list article { grid-template-columns: 1fr; gap: 8px; }
+  .deadline-value { font-size: 24px; }
+  .parallel-lanes { padding: 16px; }
+}
+@media print {
+  .navbar, .license-links, .return-link, .footer { display: none; }
+  .license-header { margin-top: 0; padding-top: 0; }
+  .section { padding: 20px 0; }
+  .phase, .deadline-list article, .license-panel { break-inside: avoid; }
+}

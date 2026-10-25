@@ -288,19 +288,19 @@ const QUESTIONS = [
     explanation: "木材的标称尺寸 (nominal size) 和实际尺寸 (actual size) 不同。1\"x8\" 的实际尺寸是 3/4\" x 7 1/4\"。"
   },
   {
-    id: 20,
-    category: "carpentry",
-    categoryName: "木工与施工",
-    question: "使用台锯 (Table Saw) 时的安全距离是多少？",
-    questionEn: "What is the margin of safety when operating a table saw?",
-    options: [
-      "1英尺 (1')",
-      "2英寸 (2\")",
-      "4英寸 (4\")",
-      "6英寸 (6\")"
+    "id": 20,
+    "category": "carpentry",
+    "categoryName": "木工与施工",
+    "question": "台锯纵锯时，哪项措施最能减少接触锯片和反弹风险？",
+    "questionEn": "When ripping on a table saw, which action best reduces blade contact and kickback?",
+    "options": [
+      "拆掉护罩看清切线",
+      "用手把窄料推到底",
+      "使用适用护罩、防反弹装置及推料工具",
+      "只要手离锯片4英寸即可"
     ],
-    answer: 2,
-    explanation: "操作台锯时，手指应始终保持距锯片至少4英寸的安全距离。"
+    "answer": 2,
+    "explanation": "按适用设备要求使用护罩、防反弹装置和推料工具，不能把一个无条件的“4英寸距离”当完整安全规则。依据 Cal/OSHA Title 8 §4300.1：https://www.dir.ca.gov/title8/4300_1.html。"
   },
   {
     id: 21,
@@ -562,19 +562,19 @@ const QUESTIONS = [
     explanation: "电动机控制器作为断路装置时，必须能够断开所有非接地（火线）导体。"
   },
   {
-    id: 38,
-    category: "electrical",
-    categoryName: "电气工程",
-    question: "4,500瓦、240伏单相储水式热水器可使用的最大标准过流保护装置是多少安培？",
-    questionEn: "Maximum standard size overcurrent protective device for a 4,500 watt, 240-volt, single-phase water heater?",
-    options: [
-      "20安培",
-      "25安培",
-      "30安培",
-      "35安培"
+    "id": 38,
+    "category": "electrical",
+    "categoryName": "电气工程",
+    "question": "题设要求按负载电流的125%计算最低载流量。4,500W、240V单相电阻负载的计算值是多少？",
+    "questionEn": "Given a required factor of 125%, what minimum ampacity is calculated for a 4,500 W, 240 V single-phase resistive load?",
+    "options": [
+      "18.75A",
+      "23.44A",
+      "25.00A",
+      "30.00A"
     ],
-    answer: 2,
-    explanation: "4,500W ÷ 240V = 18.75A，按125%计算为23.4A，下一个标准断路器尺寸为30A。"
+    "answer": 1,
+    "explanation": "先算电流4500÷240=18.75A，再乘题设系数1.25=23.4375A，约23.44A。25A和30A是额定档位，均不是本题计算值；本题不推断最大断路器，实际选型还要核对铭牌、导线和适用条款。"
   },
   {
     id: 39,
@@ -703,19 +703,19 @@ const QUESTIONS = [
 
   // ========== 安全 (Safety) ==========
   {
-    id: 47,
-    category: "safety",
-    categoryName: "安全",
-    question: "固化后的乳胶漆属于什么类型的废物？",
-    questionEn: "Unused latex paint in solidified form is ________.",
-    options: [
-      "危险废物 (Hazardous waste)",
-      "非危险废物 (Non-hazardous waste)",
-      "可燃物 (Flammable)",
-      "腐蚀性废物 (Corrosive)"
+    "id": 47,
+    "category": "safety",
+    "categoryName": "安全",
+    "question": "在加州处置装修剩余乳胶漆，哪项做法正确？",
+    "questionEn": "In California, what is the appropriate way to manage leftover latex paint from renovation?",
+    "options": [
+      "故意晒干后直接扔普通垃圾",
+      "倒入雨水口并用水冲洗",
+      "按要求送至接收该材料的PaintCare或危险废物收集点",
+      "因为水性所以可随意倾倒"
     ],
-    answer: 1,
-    explanation: "固化后的乳胶漆属于非危险废物。液态乳胶漆也通常不被归类为危险废物，但油性漆可能是。"
+    "answer": 2,
+    "explanation": "加州对废漆有专门管理要求。CalRecycle不建议把乳胶漆晒干后扔普通垃圾；应核对接收点的品类、数量和商业废物资格。依据：https://calrecycle.ca.gov/Paint/。水性不等于可随意倾倒。"
   },
   {
     id: 48,
@@ -748,19 +748,19 @@ const QUESTIONS = [
     explanation: "IRC 仅适用于一户和二户住宅。三户及以上住宅应适用 IBC。"
   },
   {
-    id: 50,
-    category: "codes",
-    categoryName: "建筑规范",
-    question: "根据加州建筑规范，居住房间的最低层高是多少？",
-    questionEn: "According to the California Building Code, what is the minimum ceiling height for habitable rooms?",
-    options: [
-      "7英尺6英寸 (7'6\")",
-      "7英尺 (7')",
-      "8英尺 (8')",
-      "6英尺8英寸 (6'8\")"
+    "id": 50,
+    "category": "codes",
+    "categoryName": "建筑规范",
+    "question": "图纸标注的适用规范与现场实际用途不一致，决定层高要求前最合适的做法是什么？",
+    "questionEn": "The specified code and actual occupancy do not match. What should be verified before determining a ceiling-height requirement?",
+    "options": [
+      "所有居住房间一律7英尺6英寸",
+      "一律沿用上一项目的尺寸",
+      "确认适用CBC或CRC、用途、具体条款及例外并取得澄清",
+      "选择要求最低的一本规范"
     ],
-    answer: 0,
-    explanation: "根据 California Residential Code，居住房间的最低层高为7英尺6英寸。"
+    "answer": 2,
+    "explanation": "CBC与CRC的适用范围和例外不同，不能把不同规范的层高数字混用。先澄清建筑用途、适用版本和条款，再核查当地要求。当前CSLB B考纲同时列2025 CBC及CRC为参考资料：https://www.cslb.ca.gov/Resources/StudyGuides/BStudyGuide.pdf。"
   },
   {
     id: 51,
@@ -900,19 +900,19 @@ const QUESTIONS = [
     explanation: "加州法律要求承包商执照号码必须出现在所有广告、名片、合同、发票、车辆标识和工地标识上。"
   },
   {
-    id: 60,
-    category: "safety",
-    categoryName: "安全",
-    question: "根据 Cal/OSHA，沟槽深度超过多少英尺时需要防护系统？",
-    questionEn: "According to Cal/OSHA, trenches deeper than how many feet require a protective system?",
-    options: [
-      "3英尺",
-      "4英尺",
-      "5英尺",
-      "6英尺"
+    "id": 60,
+    "category": "safety",
+    "categoryName": "安全",
+    "question": "加州一处非稳定岩石沟槽恰好深5英尺，工人要进入，应如何考虑防坍塌保护？",
+    "questionEn": "Workers enter an excavation exactly 5 ft deep that is not entirely stable rock. What is required in California?",
+    "options": [
+      "未超过5英尺所以不需要",
+      "必须提供适用保护系统",
+      "只要工作少于30分钟就不用",
+      "口头警告即可"
     ],
-    answer: 2,
-    explanation: "Cal/OSHA 规定，沟槽深度超过5英尺时必须安装防护系统（支撑、倾斜或屏蔽），以防止坍塌。"
+    "answer": 1,
+    "explanation": "Title 8 §1541.1的例外包括完全稳定岩石，或深度不足5ft且由competent person判断无坍塌迹象。恰好5ft不属于“不足5ft”，应按规定提供保护系统。依据：https://www.dir.ca.gov/title8/1541_1.html。"
   },
   {
     id: 61,
